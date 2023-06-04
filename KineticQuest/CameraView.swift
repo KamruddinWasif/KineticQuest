@@ -10,7 +10,16 @@ struct CameraView: UIViewRepresentable {
         let previewLayer = AVCaptureVideoPreviewLayer(session: session)
         previewLayer.videoGravity = .resizeAspectFill
         previewView.layer.addSublayer(previewLayer)
-
+        
+        guard let camera = AVCaptureDevice.default(for: .video),
+              let input = try? AVCaptureDeviceInput(device: camera),
+              session.canAddInput(input) else {
+            print("Cannot access the camera.")
+            return previewView
+        }
+        
+        session.addInput(input)
+        
         DispatchQueue.global(qos: .userInitiated).async {
             self.session.startRunning()
             DispatchQueue.main.async {

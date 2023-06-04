@@ -5,7 +5,7 @@ struct StartView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Accelerometer Game")
+                Text("Kinetic Quest")
                     .font(.largeTitle)
                     .padding()
                 NavigationLink(destination: GameView(motionManager: MotionManager())) {
