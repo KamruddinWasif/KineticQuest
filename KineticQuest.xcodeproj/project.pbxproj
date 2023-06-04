@@ -18,6 +18,7 @@
 		FA87C0672A2CB91800A28810 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C0662A2CB91800A28810 /* StartView.swift */; };
 		FA87C0692A2CB94600A28810 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C0682A2CB94600A28810 /* Obstacle.swift */; };
 		FA87C06B2A2CC3F300A28810 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA87C06A2A2CC3F200A28810 /* backgroundMusic.mp3 */; };
+		FAD59D1A2A2CD8720022FE16 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAD59D192A2CD8710022FE16 /* background.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FA87C0662A2CB91800A28810 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		FA87C0682A2CB94600A28810 /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
 		FA87C06A2A2CC3F200A28810 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		FAD59D192A2CD8710022FE16 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				FA87C05D2A2CB79C00A28810 /* MotionManager.swift */,
 				FA87C05F2A2CB7C200A28810 /* GameObject.swift */,
 				FA87C0612A2CB7D900A28810 /* GameView.swift */,
+				FAD59D192A2CD8710022FE16 /* background.jpeg */,
 				FA87C06A2A2CC3F200A28810 /* backgroundMusic.mp3 */,
 				FA87C0532A2CB75C00A28810 /* Assets.xcassets */,
 				FA87C0552A2CB75C00A28810 /* Preview Content */,
@@ -151,6 +154,7 @@
 				FA87C0572A2CB75C00A28810 /* Preview Assets.xcassets in Resources */,
 				FA87C0542A2CB75C00A28810 /* Assets.xcassets in Resources */,
 				FA87C06B2A2CC3F300A28810 /* backgroundMusic.mp3 in Resources */,
+				FAD59D1A2A2CD8720022FE16 /* background.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

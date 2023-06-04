@@ -28,9 +28,9 @@ struct GameView: View {
                 }
                 if gameOver {
                     Text("Game Over")
-                        .font(.largeTitle)
+                        .font(.custom("AvenirNext-Bold", size: 50))  // Replace with your desired font
                         .foregroundColor(.white)
-                        .background(Color.black.opacity(0.7))
+                        .background(Color.red.opacity(0.7))
                         .cornerRadius(10)
                 }
             }
