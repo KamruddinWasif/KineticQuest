@@ -11,6 +11,12 @@
 		FA87C0522A2CB75A00A28810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C0512A2CB75A00A28810 /* ContentView.swift */; };
 		FA87C0542A2CB75C00A28810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA87C0532A2CB75C00A28810 /* Assets.xcassets */; };
 		FA87C0572A2CB75C00A28810 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA87C0562A2CB75C00A28810 /* Preview Assets.xcassets */; };
+		FA87C05E2A2CB79C00A28810 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C05D2A2CB79C00A28810 /* MotionManager.swift */; };
+		FA87C0602A2CB7C200A28810 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C05F2A2CB7C200A28810 /* GameObject.swift */; };
+		FA87C0622A2CB7D900A28810 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C0612A2CB7D900A28810 /* GameView.swift */; };
+		FA87C0652A2CB8FD00A28810 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C0642A2CB8FD00A28810 /* CameraView.swift */; };
+		FA87C0672A2CB91800A28810 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C0662A2CB91800A28810 /* StartView.swift */; };
+		FA87C0692A2CB94600A28810 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C0682A2CB94600A28810 /* Obstacle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		FA87C0512A2CB75A00A28810 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA87C0532A2CB75C00A28810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA87C0562A2CB75C00A28810 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA87C05D2A2CB79C00A28810 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		FA87C05F2A2CB7C200A28810 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		FA87C0612A2CB7D900A28810 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		FA87C0632A2CB8BF00A28810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA87C0642A2CB8FD00A28810 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		FA87C0662A2CB91800A28810 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		FA87C0682A2CB94600A28810 /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		FA87C04E2A2CB75A00A28810 /* KineticQuest */ = {
 			isa = PBXGroup;
 			children = (
+				FA87C0632A2CB8BF00A28810 /* Info.plist */,
 				FA87C04F2A2CB75A00A28810 /* KineticQuestApp.swift */,
 				FA87C0512A2CB75A00A28810 /* ContentView.swift */,
+				FA87C0642A2CB8FD00A28810 /* CameraView.swift */,
+				FA87C0662A2CB91800A28810 /* StartView.swift */,
+				FA87C0682A2CB94600A28810 /* Obstacle.swift */,
+				FA87C05D2A2CB79C00A28810 /* MotionManager.swift */,
+				FA87C05F2A2CB7C200A28810 /* GameObject.swift */,
+				FA87C0612A2CB7D900A28810 /* GameView.swift */,
 				FA87C0532A2CB75C00A28810 /* Assets.xcassets */,
 				FA87C0552A2CB75C00A28810 /* Preview Content */,
 			);
@@ -137,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA87C0602A2CB7C200A28810 /* GameObject.swift in Sources */,
 				FA87C0522A2CB75A00A28810 /* ContentView.swift in Sources */,
+				FA87C05E2A2CB79C00A28810 /* MotionManager.swift in Sources */,
+				FA87C0652A2CB8FD00A28810 /* CameraView.swift in Sources */,
 				FA87C0502A2CB75A00A28810 /* KineticQuestApp.swift in Sources */,
+				FA87C0622A2CB7D900A28810 /* GameView.swift in Sources */,
+				FA87C0692A2CB94600A28810 /* Obstacle.swift in Sources */,
+				FA87C0672A2CB91800A28810 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +296,8 @@
 				DEVELOPMENT_TEAM = ST3PH6NUXB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KineticQuest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +327,8 @@
 				DEVELOPMENT_TEAM = ST3PH6NUXB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KineticQuest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
